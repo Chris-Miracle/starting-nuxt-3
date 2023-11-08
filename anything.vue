@@ -2,6 +2,10 @@
   <div>
     <a href="#" @click="toggleComponent('home')"> Home </a>
     <a href="#" @click="toggleComponent('counter')"> Counter </a>
+
+    <NuxtPage/>
+
+
     <LazyIncludesHome v-if="view === 'home'" />
     <LazyIncludesCounter v-if="view === 'counter'" />
   </div>
