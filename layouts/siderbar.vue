@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav>
+        <nav class="bg-gray-500">
             <ul>
                 <li>Dashboard</li>
                 <li>Settings</li>

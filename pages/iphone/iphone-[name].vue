@@ -11,4 +11,8 @@ const name = computed(() => {
     return route.params.name.replaceAll('-', ' ')
 })
 
+useHead({
+    title: `Iphone-${route.params.name}`
+})
+
 </script>
